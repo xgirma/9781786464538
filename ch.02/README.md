@@ -1,7 +1,8 @@
 # Clean up your code
 
         to write clean and maintainable JSX code
-        Babel, Linting, 
+        Babel, 
+        Linting, 
         functional programming 
        
 React provides two ways to define our `elements`. 
@@ -20,6 +21,10 @@ React provides two ways to define our `elements`.
 [04. JSX and HTML](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/R04.jsx.vs.html.md)
 
 [05. Spread](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/R05.Spread.md)
+
+[06. JavaScript templating](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/R06.Templating.md)
+
+[06. JavaScript templating](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/R07.Patterns.md)
 
 
 

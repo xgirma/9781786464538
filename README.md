@@ -3,3 +3,5 @@
 ISBN 978-1-78646-453-8
 
 [01. Everything you should know about React](https://github.com/xgirma/9781786464538/tree/ch.01)
+
+[02. Clean up your code](https://github.com/xgirma/9781786464538/tree/ch.02)

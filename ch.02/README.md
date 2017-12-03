@@ -34,6 +34,10 @@ React provides two ways to define our `elements`.
 
 [11. Sub-rendering](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/notes/11.sub.rendering.md)
 
+[12. The Basics of functional programming](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/README.md)
+
+[13. First-class objects](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/01.first.class.objects.md)
+
 
 
 

@@ -32,7 +32,9 @@ React provides two ways to define our `elements`.
 
 [10. Control statements](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/notes/10.control.statements.md)
 
-[06. Sub-rendering](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/notes/11.sub.rendering.md)
+[11. Sub-rendering](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/notes/11.sub.rendering.md)
+
+
 
 
 

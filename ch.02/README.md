@@ -38,6 +38,15 @@ React provides two ways to define our `elements`.
 
 [13. First-class objects](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/01.first.class.objects.md)
 
+[13. Purity](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/02.purity.md)
+
+[14. Immutability](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/03.immutability.md)
+
+[15. Currying](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/04.curring.md)
+
+[16. Composition](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/05.composition.md)
+
+[17. FP and user-interfaces](https://github.com/xgirma/9781786464538/blob/ch.02/ch.02/FP/06.fp.and.user.interfaces.md)
 
 
 

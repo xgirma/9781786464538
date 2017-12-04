@@ -1,9 +1,10 @@
 import React from 'react';
 import createReactClass from 'create-react-class'
+import PropTypes from 'prop-types'
 
 const ButtonUsingCreateReactClass = createReactClass({
   propTypes: {
-    text: createReactClass.PropTypes.string,
+    text: PropTypes.string,
   },
 
   getDefaultProps() {
@@ -17,4 +18,4 @@ const ButtonUsingCreateReactClass = createReactClass({
   }
 })
 
-export default ButtonUsingCreateReactClass;
+export default ButtonUsingCreateReactClass

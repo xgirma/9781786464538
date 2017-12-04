@@ -9,7 +9,7 @@ const ButtonUsingCreateReactClass = createReactClass({
 
   getDefaultProps() {
     return {
-      text: 'Click me!',
+      text: 'Click me! props',
     }
   },
 

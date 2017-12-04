@@ -2,6 +2,6 @@
 
 ## Content
 
-[01. create React class with createClass and class]()
+[01. Create React class with createClass and ES2015 class](https://github.com/xgirma/9781786464538/blob/ch.03/chapters/ch.03/notes/01.create.class.md)
 
-[02. the difference between createClass and class]()
+[02. The difference between createClass and ES2015 class](https://github.com/xgirma/9781786464538/blob/ch.03/chapters/ch.03/notes/02.differences.md)

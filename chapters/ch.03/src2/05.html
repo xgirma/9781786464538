@@ -5,12 +5,20 @@
 <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 <script crossorigin src="https://unpkg.com/prop-types@15.6.0/prop-types.js"></script>
 <script type="text/babel">
-  const Element = ({text}) => <button>{text}</button>
+  const Element = ({text}) => {
+    let input
+    const onClick = () => input.focus()
 
-  Element.propTypes = {
-    text: PropTypes.string
+    return (
+      <div>
+        <input ref={el => (input = el)} />
+        <button onClick={onClick}>{text}</button>
+      </div>
+    )
   }
 
-  ReactDOM.render(<Element text={"Girma"}/>, document.getElementById('root'))
+  Element.propTypes = {text: PropTypes.string}
+
+  ReactDOM.render(<Element text={"Focus"}/>, document.getElementById('root'))
 </script>
 </body>

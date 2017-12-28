@@ -1,25 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
+import jsdom from 'jsdom'
+var doc = jsdom('<!doctype html><html><body></body></html>')
+var win = doc.defaultView
 
-const Button = React.createClass({
-  render () {
-    return <button/>
-  }
-});
+global.document = doc
+global.window = win
+
+import React from 'react';
+import ReactTestUtils from 'react-dom/test-utils';
 
 describe('test', () => {
   it('should be a button', () => {
-    const renderer = TestUtils.createRenderer();
-    renderer.render(<Button/>);
+    const Button = () => <button/>
+    const component = ReactTestUtils.renderIntoDocument(<div><Button/></div>)
 
-    const actual = renderer.getRenderOutput().type;
     const expected = 'a';
-    expect(actual).toEqual(expected)
+    expect(component).toEqual(expected)
 
   });
 });
-
-
-
-console.log(component);

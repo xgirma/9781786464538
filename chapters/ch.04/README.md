@@ -1,6 +1,6 @@
 # Chapter 4 - Compose All the Things
 
-## 01 Communication between components 
+## 01. Communication between components 
 Small components with a clean interface can be composed together to create complex applications that are maintainable and powerful. Whenever you compose components, you share data using `props`. Props are the way every parent component pass data to child component. 
 
 ```html
@@ -97,7 +97,7 @@ const Buttons = () => (
 );
 ```
 
-## 03 Container and presentational pattern
+## 03. Container and presentational pattern
 React components typically contain a mix of `logic` and `presentation`. By logic we are referring to anything that is unrelated to the user interface, such as API call, data manipulation, and event handlers. The container and presentational pattern helps us to separate the two. In this patter, every component is split into two, each with clear responsibility. The container component knows everything about the the login and the presentation about the user interface. 
 
 ```html
@@ -207,3 +207,22 @@ const Loading = ( {text} ) => {
 };
 ```
 
+## 04. Mixins
+Mixins are no longer recommended. 
+
+## 05. Higher-order component (HoCs)
+Higher-order functions (HoFs) which are functions that, given a function, enhance it with some extra behaviours, returning a new. Applying the concept of HoFs to React Components to achieve the same goal of sharing functionality between Components while avoiding the downside of mixins.
+
+        const HOC = Component => EnhancedComponent
+        
+HoCs are functions that take a component as input and return an enhanced one as the output. Suppose you need to attach to every component the same `className` property for some reason. You could go and change the `render` methods adding the `className` prop to each of them, or you could write a HoC, such as the following one. 
+
+```javascript
+const withClassName = Component = props => (<Component {...props} className='my-class' />)
+``` 
+
+`withClassName` function that takes a `Component` and return another function. The returned function is a `stateless functional component` that receives some props and renders the original component. 
+
+The reason why `HoCs` usually spread the props they receive on the component is because they tend to be transparent and only add the new behaviour.   
+
+ 

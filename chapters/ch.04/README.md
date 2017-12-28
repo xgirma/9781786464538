@@ -76,6 +76,16 @@ Username.propTypes = {
 <script type="text/babel">
   ReactDOM.render(<Buttons />, document.getElementById('root'));
 </script>
+```
+
+```javascript
+const Button = ({ children }) => {
+  return ( <button className="btn">{children}</button> )
+};
+
+Button.propType = {
+  children: PropTypes.array
+};
 ``` 
 
 ```javascript
@@ -87,14 +97,4 @@ const Buttons = () => (
 );
 ```
 
-```javascript
-const Button = ({ children }) => {
-  return ( <button className="btn">{children}</button> )
-};
-
-Button.propType = {
-  children: PropTypes.array
-};
-```
-
-## 03 ...
+## 03 Container and presentational pattern

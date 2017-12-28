@@ -9,3 +9,5 @@ ISBN 978-1-78646-453-8
 [03. Create truly reusable components]()
 
 <img width="293" alt="React design patterns and best practices" src="https://user-images.githubusercontent.com/5876481/33521978-08432d4e-d796-11e7-88df-ef383d3e936f.jpg">
+
+Heide
